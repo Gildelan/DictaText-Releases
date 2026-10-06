@@ -1,4 +1,4 @@
-# DictaText 0.7.0
+# DictaText 0.7.1
 
 - Dark dashboard with compact sidebar, original identity, real insights and daily radial activity.
 - Local usage analytics by category and executable; old records remain unclassified. No dictation content is read for analytics.
@@ -8,5 +8,7 @@
 
 Physical QA of dictation, microphone changes and appearance remains required. This release does not assert that DictaText V1 is finished or that previously reported lexical ASR errors are resolved. No RNNoise filter has been added without A/B evidence.
 
-Verified source commit: 28303bf2aaa9d93f412f729f378ba371c6a744c9
-Tests: 409/409; installed/native/updater integration PASS.
+Cancellation fix: closing the update offer has one cancellation path, asynchronous decision continuations and a lifecycle guard. Release 0.7.0 was withdrawn after the final physical UI check exposed this race.
+
+Verified source commit: 834515006c90616f664e78bed79858d137923a0a
+Tests: 412/412; installed/native/updater integration PASS.

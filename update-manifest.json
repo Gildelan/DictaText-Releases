@@ -1,11 +1,11 @@
 {
     "schemaVersion":  1,
-    "version":  "0.7.0",
+    "version":  "0.7.1",
     "minimumSupportedVersion":  "0.6.0",
-    "installerAsset":  "DictaText-0.7.0-win-x64-setup.exe",
-    "sha256":  "96fd9aad7394246aef479f2850cdef73b56785e643e6db951aca7398db29b8df",
-    "size":  1028189684,
-    "sourceCommit":  "28303bf2aaa9d93f412f729f378ba371c6a744c9",
-    "releaseNotes":  "Dashboard oscuro, identidad original, analÃ­tica local y actualizador verificado. Datos/modelos conservados. QA fÃ­sica pendiente; no V1 final.",
-    "publishedAt":  "2026-10-06T08:50:55.2858635+00:00"
+    "installerAsset":  "DictaText-0.7.1-win-x64-setup.exe",
+    "sha256":  "ffaa42b6ae09ca747c681bb896fad7a68c45b2cad85e2e442990b3f27b2cf9ed",
+    "size":  1028140859,
+    "sourceCommit":  "834515006c90616f664e78bed79858d137923a0a",
+    "releaseNotes":  "Dashboard oscuro, identidad original, analítica local y actualizador verificado. Datos/modelos conservados. QA física pendiente; no V1 final.",
+    "publishedAt":  "2026-10-06T11:38:08.5151090+00:00"
 }
