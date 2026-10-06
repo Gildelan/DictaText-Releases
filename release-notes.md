@@ -1,14 +1,10 @@
-# DictaText 0.7.1
+# DictaText 0.7.2
 
-- Dark dashboard with compact sidebar, original identity, real insights and daily radial activity.
-- Local usage analytics by category and executable; old records remain unclassified. No dictation content is read for analytics.
-- Large preferences window, per-change confirmation, application classification, installation and encrypted data location in About.
-- Explicit GitHub Releases updater: stable SemVer, verified manifest, SHA-256, signature validation when signed, isolated helper, binary backup/rollback and exact installation destination.
-- Updates preserve personal data and existing valid LLM/speech models; no LLM GGUF is bundled.
+Fix text recovery appearing after a successful paste into an editable control whose UI Automation caret range is stale or unavailable. Verification now separates confirmed, rejected and unavailable; an accepted paste to a safe editable target can be SentNotVerifiable without opening Copy. Determinate native/value rejection, protected fields, noneditable clicks and vanished targets still preserve the text for recovery.
 
-Physical QA of dictation, microphone changes and appearance remains required. This release does not assert that DictaText V1 is finished or that previously reported lexical ASR errors are resolved. No RNNoise filter has been added without A/B evidence.
+Successfully sent dictations no longer remain in the pending recovery journal. Mouse movement alone does not change the destination; editable clicks still select the new field. Audio, hotkeys, ASR, LLM, models and personal data remain unchanged.
 
-Cancellation fix: closing the update offer has one cancellation path, asynchronous decision continuations and a lifecycle guard. Release 0.7.0 was withdrawn after the final physical UI check exposed this race.
+Regression reproduced with an owned Document/Text/Value editor that received the complete text while the previous build reported Failed. Native tests cover two consecutive sessions, actual rejected paste, click safety, editable focus changes, browser and Word. Physical QA in the user's affected field remains pending; V1 is not declared final.
 
-Verified source commit: 834515006c90616f664e78bed79858d137923a0a
+Verified source commit: 81b88f9c2570b8d5844c6cf360e9daad7c5db3da
 Tests: 412/412; installed/native/updater integration PASS.

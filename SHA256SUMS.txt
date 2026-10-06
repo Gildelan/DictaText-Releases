@@ -1,1 +1,1 @@
-ffaa42b6ae09ca747c681bb896fad7a68c45b2cad85e2e442990b3f27b2cf9ed  DictaText-0.7.1-win-x64-setup.exe
+e7aac53d5e48406b1590acae5083cecdf1c6cf85d4c25662fda5019f92965050  DictaText-0.7.2-win-x64-setup.exe

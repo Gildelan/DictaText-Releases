@@ -1,11 +1,11 @@
 {
     "schemaVersion":  1,
-    "version":  "0.7.1",
+    "version":  "0.7.2",
     "minimumSupportedVersion":  "0.6.0",
-    "installerAsset":  "DictaText-0.7.1-win-x64-setup.exe",
-    "sha256":  "ffaa42b6ae09ca747c681bb896fad7a68c45b2cad85e2e442990b3f27b2cf9ed",
-    "size":  1028140859,
-    "sourceCommit":  "834515006c90616f664e78bed79858d137923a0a",
-    "releaseNotes":  "Dashboard oscuro, identidad original, analítica local y actualizador verificado. Datos/modelos conservados. QA física pendiente; no V1 final.",
-    "publishedAt":  "2026-10-06T11:38:08.5151090+00:00"
+    "installerAsset":  "DictaText-0.7.2-win-x64-setup.exe",
+    "sha256":  "e7aac53d5e48406b1590acae5083cecdf1c6cf85d4c25662fda5019f92965050",
+    "size":  1028172327,
+    "sourceCommit":  "81b88f9c2570b8d5844c6cf360e9daad7c5db3da",
+    "releaseNotes":  "Corrige el falso panel Copiar tras pegar en campos editables con verificación UIA no disponible. Conserva datos/modelos; QA física del campo afectado pendiente.",
+    "publishedAt":  "2026-10-06T12:48:10.1968713+00:00"
 }
